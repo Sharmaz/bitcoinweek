@@ -1,6 +1,7 @@
 import Hero from "./LandingPage/Hero";
 import About from "./LandingPage/About";
 import Location from "./LandingPage/Location";
+import Schedule from "./LandingPage/Schedule";
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <About />
       <Location />
+      <Schedule />
     </div>
   );
 }
