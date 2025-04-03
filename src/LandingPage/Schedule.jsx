@@ -17,8 +17,8 @@ function Schedule() {
   const isVisible = !!entry?.isIntersecting;
 
   return (
-    <div className={`flex flex-col justify-center items-center my-5 transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100 md:translate-y-4' : 'md:opacity-0'}`} ref={ref}>
-      <div className="flex flex-col justify-center items-center text-white w-[300px] md:w-[600px] text-center">
+    <div className={`relative flex flex-col justify-center items-center my-5 transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100 md:translate-y-4' : 'md:opacity-0'} md:my-28`} ref={ref}>
+      <div className="relative z-10 flex flex-col justify-center items-center text-white w-[300px] md:w-[600px] text-center">
         <h2 className="text-2xl md:text-3xl font-bold">Agenda</h2>
         <div className="my-6">
           <iframe
@@ -31,6 +31,7 @@ function Schedule() {
           </iframe>
         </div>
       </div>
+      <div className={`separator absolute bottom-[-70px] md:bottom-[-140px] w-screen h-16 md:h-[140px] bg-cover transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100' : 'md:opacity-0'}`}></div>
     </div>
   );
 }
