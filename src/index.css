@@ -12,3 +12,25 @@ body {
   background-image: url("./assets/img/waves2.svg");
   background-repeat: no-repeat;
 }
+
+.title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+
+  @apply bg-cyan-400;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 24px;
+  width: 100%;
+  z-index: -1;
+
+  @apply bg-violet-950 border-x-4 border-cyan-400 -skew-x-12;
+}
