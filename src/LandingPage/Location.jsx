@@ -21,7 +21,7 @@ function Location() {
           </p>
           <div className="flex items-center justify-center">
             <a
-              className=" bg-cyan-500  rounded-md p-2 my-4 w-1/2 md:text-xl lg:text-2xl font-bold"
+              className=" bg-cyan-500  rounded-md p-2 my-4 w-1/2 md:text-xl font-bold"
               href="https://www.google.com/maps/dir/?api=1&destination=Expo%2C%20Guadalajara%20Guadalajara%20Jalisco"
               target="_blank"
               rel="noreferrer"
@@ -36,7 +36,7 @@ function Location() {
           </p>
           <div className="flex items-center justify-center">
             <a
-              className=" bg-cyan-500 rounded-md p-2 my-4 w-1/2 md:text-xl font-bold"
+              className="bg-cyan-500 rounded-md p-2 my-4 w-1/2 md:text-xl font-bold"
               href="https://maps.app.goo.gl/mJDwW4xGXFuswSRN8"
               target="_blank"
               rel="noreferrer"
