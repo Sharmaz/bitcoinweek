@@ -62,12 +62,12 @@ function Hero() {
       <div className="z-10 md:mt-32">
         <img src={Logo} alt="BitcoinWeek Logo" className={`w-[300px] md:w-[500px] transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100 md:translate-y-4 animate__rubberBand' : 'md:opacity-0'}`} />
         <div className={`flex flex-col justify-center items-center text-white w-[300px] md:w-[600px] text-center my-5 transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100 md:translate-y-4' : 'md:opacity-0'}`}>
-          <h2 className="text-lg md:text-2xl">Del 21 de al 25 de Abril</h2>
+          <h2 className="text-lg md:text-2xl">21 - 25 de Abril 2025. Guadalajara, México</h2>
           <h2 className="text-2xl md:text-5xl my-4 font-bold">Es momento de construir el futuro con Bitcoin</h2>
           <h2 className="text-lg md:text-3xl">Aprende, colabora y participa!!</h2>
         </div>
       </div>
-      <div className={`separator absolute bottom-[-50px] md:bottom-[0px] w-screen h-16 md:h-[270px] bg-cover transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100' : 'md:opacity-0'}`}>
+      <div className={`separator absolute bottom-[-50px] md:bottom-[0px] w-full h-16 md:h-[270px] bg-cover transition-all ease-in-out duration-300 ${isVisible ? 'md:opacity-100' : 'md:opacity-0'}`}>
       </div>
     </div>
   );
