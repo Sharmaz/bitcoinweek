@@ -6,12 +6,7 @@ import HackerGarageLogo from "../assets/img/hacker-garage-logo.svg";
 function Location() {
 
   const ref = useRef();
-  const entry = useIntersectionObserver(ref, {
-    threshold: 1.0,
-    root: null,
-    rootMargin: '500px',
-    freezeOnceVisible: false,
-  });
+  const entry = useIntersectionObserver(ref, {});
   const isVisible = !!entry?.isIntersecting;
 
   return (
@@ -51,21 +46,6 @@ function Location() {
             <a
               className="bg-cyan-500 rounded-md p-2 my-4 w-1/2 md:text-xl font-bold"
               href="https://maps.app.goo.gl/jreEVZKj2scfxmej6"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Google Maps
-            </a>
-          </div>
-
-          <h3 className="text-xl md:text-2xl my-4">The Westin Guadalajara</h3>
-          <p className="text-lg md:text-2xl text-center">
-            Frente a la Expo Guadalajara en Av de Las Rosas 2911, Verde Valle, 44530 Guadalajara, Jal.
-          </p>
-          <div className="flex items-center justify-center">
-            <a
-              className="bg-cyan-500 rounded-md p-2 my-4 w-1/2 md:text-xl font-bold"
-              href="https://maps.app.goo.gl/hyNPRTbt9Cm34CNM8"
               target="_blank"
               rel="noreferrer"
             >
