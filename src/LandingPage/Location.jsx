@@ -40,7 +40,7 @@ function Location() {
             </a>
           </div>
 
-          <h3 className="text-xl md:text-2xl my-4">Día extra en Hacker Garage</h3>
+          <h3 className="text-xl md:text-2xl my-4">Meetup de Comunidad Bitcoin & Lightning Guadalajara @ Hacker Garage</h3>
           <div className="flex flex-col md:flex-row justify-center items-center my-6 bg-white rounded-md p-4 w-[100px] md:w-[120px] mx-auto">
             <img src={HackerGarageLogo} alt="Talent Land Logo" className="w-[100px] md:w-[120px]" />
           </div>
@@ -60,7 +60,7 @@ function Location() {
 
           <h3 className="text-xl md:text-2xl my-4">Barceló Guadalajara</h3>
           <p className="text-lg md:text-2xl text-center">
-            Frente a la Expo Guadalajara en Av de Las Rosas 2933, Verde Valle, 44530 Guadalajara, Jal.
+            Frente a la Expo Guadalajara en Av. de Las Rosas 2933, Verde Valle, 44530 Guadalajara, Jal.
           </p>
           <div className="flex items-center justify-center">
             <a
