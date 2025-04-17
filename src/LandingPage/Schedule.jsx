@@ -29,10 +29,10 @@ function Schedule() {
             scrolling="no"
           >
           </iframe>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center my-4">
             <a
               className="bg-cyan-500 rounded-md p-2 my-4 w-1/2 md:text-xl font-bold"
-              href="https://bitcoinweek.dev/assets/bitcoinweek-calendar.ics"
+              href="https://bitcoinweek.dev/bitcoinweek-calendar.ics"
               target="_blank"
               rel="noreferrer"
             >
