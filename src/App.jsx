@@ -5,6 +5,7 @@ import Schedule from "./LandingPage/Schedule";
 import Brands from "./LandingPage/Brands";
 import Contact from "./LandingPage/Contact";
 import Footer from "./LandingPage/Footer";
+import Special from "./LandingPage/Special";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Location />
       <Schedule />
+      <Special />
       <Brands />
       <Contact />
       <Footer />
