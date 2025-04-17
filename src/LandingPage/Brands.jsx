@@ -42,7 +42,6 @@ function Brands() {
         <div className="flex flex-col md:flex-row justify-evenly items-center my-6 bg-white rounded-md py-4 w-[300px] md:w-[600px]">
           <img src={btcLnLogo} alt="bitcoin ln gdl logo" className="w-[200px] md:w-[220px] my-4" />
           <img src={bitdevsLogo} alt="bitdevs gdl logo" className="w-[200px] md:w-[220px] my-4" />
-          {/* <img src={kapitalexLogo} alt="kapitalex logo" className="w-[150px] md:w-[120px] my-4" /> */}
         </div>
         <h2 className="flex items-center justify-center title relative text-2xl md:text-3xl font-bold px-4 before:w-[300px] before:md:w-[600px]">Asociación Bitcoin de México</h2>
         <div className="flex flex-shrink flex-col justify-evenly items-center my-6 bg-white rounded-md py-4 w-[300px] md:w-[600px]">
