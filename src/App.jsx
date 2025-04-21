@@ -6,6 +6,7 @@ import Brands from "./LandingPage/Brands";
 import Contact from "./LandingPage/Contact";
 import Footer from "./LandingPage/Footer";
 import Special from "./LandingPage/Special";
+import Events from "./LandingPage/Events";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Location />
       <Schedule />
+      <Events />
       <Special />
       <Brands />
       <Contact />
