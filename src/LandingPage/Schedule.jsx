@@ -13,7 +13,12 @@ function Schedule() {
   }, []);
 
   const ref = useRef();
-  const entry = useIntersectionObserver(ref, {});
+  const entry = useIntersectionObserver(ref, {
+    threshold: 1.0,
+    root: null,
+    rootMargin: '500px',
+    freezeOnceVisible: false,
+  });
   const isVisible = !!entry?.isIntersecting;
 
   return (
