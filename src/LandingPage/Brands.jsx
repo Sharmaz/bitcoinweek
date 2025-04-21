@@ -18,6 +18,7 @@ import KardashevBtcLogo from '../assets/img/kardashev-btc-logo.jpeg';
 import BitcoinHomesLogo from '../assets/img/bit-casa-homes-logo.jpeg';
 import IbexLogo from '../assets/img/ibex-logo.jpeg';
 import AthenaBitcoinLogo from '../assets/img/athena-bitcoin-logo.jpeg';
+import BullBitcoinLogo from '../assets/img/bullbitcoin-logo.png';
 
 function Brands() {
 
@@ -100,6 +101,12 @@ function Brands() {
             <div className="flex flex-col justify-center items-center w-[100px]">
               <img src={AthenaBitcoinLogo} alt="Athena Bitcoin logo" className="w-[100px] my-4" />
               <h3 className="text-slate-900">Athena Bitcoin</h3>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row justify-evenly items-center md:items-start w-full">
+            <div className="flex flex-col justify-center items-center w-[100px]">
+              <img src={BullBitcoinLogo} alt="Bull Bitcoin logo" className="w-[100px] my-4" />
+              <h3 className="text-slate-900">Bull Bitcoin</h3>
             </div>
           </div>
         </div>
