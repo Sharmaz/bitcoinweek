@@ -79,25 +79,25 @@ function Events() {
           <h3 className="text-2xl font-bold mt-4 underline">Miercoles 23 de Abril</h3>
           <h4 className="text-xl font-bold mb-4">@ Barceló Hotel</h4>
           <div className="mb-6">
-            <div className="flex items-center justify-center">
-              <div className="flex items-center justify-center">
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-around">
+              <div className="flex flex-col items-center justify-center md:w-[45%]">
                 <img src={CarlosImg} alt="Carlos Guzmán Durán" className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] my-4 rounded-full object-cover" />
+                <h2 className="text-xl font-bold">
+                  Dr. Carlos R. Guzmán Durán
+                </h2>
+            <h3 className="text-base mb-2">Catedrático de matemáticas Tec y UP.</h3>
               </div>
-              <div className="flex items-center justify-center">
+              <div className="flex flex-col items-center justify-center md:w-[45%]">
                 <img src={JorgeImg} alt="Jorge Martinez Ortega" className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] my-4 rounded-full object-cover" />
+                <h2 className="text-xl font-bold">
+                  Dr. Jorge Martinez Ortega
+                </h2>
+                <h3 className="text-base mb-2">Dr. En física, científico de datos.</h3>
               </div>
             </div>
-            <h2 className="text-xl font-bold">
-              Dr. Carlos R. Guzmán Durán
-            </h2>
-            <h3 className="text-base mb-2">Catedrático de matemáticas Tec y UP</h3>
-            <h2 className="text-xl font-bold">
-              Dr. Jorge Martinez Ortega
-            </h2>
-            <h3 className="text-base mb-2">Dr. En física, científico de datos en Yo te Presto</h3>
             <p className="text-sm text-white">4:40 - 5:50 pm</p>
             <p className="mt-2 text-white">
-              Criptografía: cómo funciona el consenso de Bitcoin?
+              Criptografía: Descubre cómo funciona el consenso de Bitcoin el cual permite a Bitcoin funcionar sin necesidad de una autoridad central, asegurando que todas las transacciones sean verificadas, registradas y acordadas por toda la red.
             </p>
           </div>
           <div className="mb-6">
