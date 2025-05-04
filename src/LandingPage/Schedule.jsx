@@ -28,7 +28,7 @@ function Schedule() {
         <div className="my-6">
           <iframe
             title="Agenda Bitcoin Week"
-            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FMexico_City&showNav=0&showCalendars=0&showTz=0&mode=AGENDA&showTabs=0&src=ZGQ0MWNmNzlhODE1MWM5ZDhkNDkxYWZiYWZmODFjNjZlZjlkOGQyZTRlNDk1ZDM5MzNkNTg2MTM3ZTUzZTg4N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441"
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FMexico_City&showNav=0&showCalendars=0&showTz=0&mode=AGENDA&dates=20250421%2F20250426&showTabs=0&src=ZGQ0MWNmNzlhODE1MWM5ZDhkNDkxYWZiYWZmODFjNjZlZjlkOGQyZTRlNDk1ZDM5MzNkNTg2MTM3ZTUzZTg4N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441"
             width={winWidth}
             height="550"
             frameBorder="0" 
